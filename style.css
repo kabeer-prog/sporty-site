@@ -71,3 +71,17 @@ img
 {
     width: 50%;
 }
+nav{
+    border-bottom: 5px solid blue;
+ }
+  ul{
+    display: flex;
+    background: #000;
+    color: #fff;
+    
+  }
+  li{
+    flex-direction: row;
+    list-style: none;
+    padding: 30px;
+  }
