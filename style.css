@@ -8,6 +8,8 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
+    background: #000;
+    color:#fff;
 }
 
 h1 {
@@ -15,14 +17,21 @@ h1 {
 }
 
 .container {
-    width: 80%;
-    max-width: 1100px;
+    width: 90%;
+    /* max-width: 1100px; */
     margin: 0 auto;
+    
+}
+.mid {
+    border-bottom: 2px solid#FFF;
+    padding-bottom: 3.5em;
 }
 
 .row {
     /* display: flex => flex container */
     display: flex;
+    
+    margin: -20px 40px;
 
     /* can't use yet */
     /* gap: 100px; */
@@ -31,11 +40,19 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+    
+}
+.card {
+    background: gray;
+    margin: 0 20px 0 0;
+    width: 80%;
+    padding: 1.2em;
+    
 }
 
 .hero {
     padding: 100px 0;
-    background-color: #23424A;
+    /* background-color: #23424A; */
     color: #FFF;
 
     background-image: url("stadium.jpg");
@@ -56,11 +73,12 @@ h1 {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase; 
-    color: #23424A;
+    color: #000;
     font-weight: 900;
     background-color: red;
-    padding: .75em 2em;
+    padding: .5em .75em;
     border-radius: 100px;
+    margin: .3em;
 }
 
 .btn:hover,
@@ -69,7 +87,7 @@ h1 {
 }
 img 
 {
-    width: 50%;
+    width: 80%;
 }
 nav{
     border-bottom: 5px solid blue;
@@ -85,3 +103,15 @@ nav{
     list-style: none;
     padding: 30px;
   }
+
+  .third .row{
+    margin: 20px 40px;
+  }
+.footer{
+    text-align: center;
+    text-decoration: none;
+}
+.links{
+    padding-right: 20px;
+    border-right: 2px solid #fff;
+}
